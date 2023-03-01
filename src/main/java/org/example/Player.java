@@ -2,7 +2,6 @@ package org.example;
 import java.io.FileDescriptor;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
-//import java.util.Scanner;
 
 class Player extends GameBoard{
 
