@@ -4,9 +4,9 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 class GameBoard {
-    static char[][] board = new char[3][3];
-    static String name;
-    static char key;
+     char[][] board = new char[3][3];
+     String name;
+     char key;
     static Scanner s = new Scanner(System.in);
     static PrintStream l = new PrintStream((new FileOutputStream(FileDescriptor.out)));
 
